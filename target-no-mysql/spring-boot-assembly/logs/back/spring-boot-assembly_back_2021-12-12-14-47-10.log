@@ -1,0 +1,38 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-09 14:20:55.936  INFO 49890 --- [           main] o.s.boot.SpringApplication               : Starting application on kuanghaochuandeMacBook-Pro.local with PID 49890 (started by kuanghaochuan in /Users/kuanghaochuan/Projects/java-test/as/spring-boot-assembly/target-no-mysql/spring-boot-assembly)
+2021-12-09 14:20:55.937  INFO 49890 --- [           main] o.s.boot.SpringApplication               : The following profiles are active: khc
+2021-12-09 14:20:58.457  INFO 49890 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2021-12-09 14:20:58.489  INFO 49890 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-09 14:20:58.489  INFO 49890 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-12-09 14:20:58.502  INFO 49890 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/kuanghaochuan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-12-09 14:20:58.583  INFO 49890 --- [           main] o.a.c.c.C.[.[localhost].[/example]       : Initializing Spring embedded WebApplicationContext
+2021-12-09 14:20:58.583  INFO 49890 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2522 ms
+2021-12-09 14:20:58.639  INFO 49890 --- [           main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-12-09 14:20:58.643  INFO 49890 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-12-09 14:20:58.643  INFO 49890 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-12-09 14:20:58.643  INFO 49890 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-12-09 14:20:58.643  INFO 49890 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-12-09 14:20:59.105  INFO 49890 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-09 14:20:59.254  INFO 49890 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-09 14:20:59.489  INFO 49890 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path '/example'
+2021-12-09 14:20:59.494  INFO 49890 --- [           main] o.s.boot.SpringApplication               : Started application in 4.372 seconds (JVM running for 5.119)
+2021-12-09 14:20:59.497  INFO 49890 --- [           main] i.g.springboot.assembly.Application      : spring.profiles.active = khc
+2021-12-09 14:20:59.498  INFO 49890 --- [           main] i.g.springboot.assembly.Application      : contextPath = /example
+2021-12-09 14:20:59.498  INFO 49890 --- [           main] i.g.springboot.assembly.Application      : server.port = 9999
+2021-12-09 14:20:59.498  INFO 49890 --- [           main] i.g.springboot.assembly.Application      : hello = Hello Local
+2021-12-09 14:20:59.498  INFO 49890 --- [           main] i.g.springboot.assembly.Application      : http://localhost:9999/example/hello?name=spring-boot-assembly
+2021-12-09 14:20:59.498  INFO 49890 --- [           main] i.g.springboot.assembly.Application      : http://localhost:9999/example/otherFile
+2021-12-09 14:21:09.994  INFO 49890 --- [nio-9999-exec-1] o.a.c.c.C.[.[localhost].[/example]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 14:21:09.996  INFO 49890 --- [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-09 14:21:10.032  INFO 49890 --- [nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 35 ms
+2021-12-09 14:21:10.078  INFO 49890 --- [nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-09 14:21:10.090  WARN 49890 --- [nio-9999-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.cj.jdbc.Driver was not found, trying direct instantiation.
+2021-12-09 14:21:10.659  INFO 49890 --- [nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
